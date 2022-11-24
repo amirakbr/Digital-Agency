@@ -1,9 +1,9 @@
+import HeaderLogoComponent from "./Components/Header/HeaderLogoComponent";
+
 function App() {
   return (
-    <p>
-      salam
-    </p>
-  );
+    <HeaderLogoComponent />
+  )
 }
 
 export default App;
