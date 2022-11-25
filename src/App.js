@@ -1,8 +1,24 @@
-import HeaderLogoComponent from "./Components/Header/HeaderLogoComponent";
+
+import HeaderComponent from "./Components/Header/HeaderComponent";
+
+
+import HeroComponent from "./Components/Hero/HeroComponent";
+
+
+import FloatBanner from "./Components/FloatBanner/FloatBanner";
+
+
+import OurServicesComponent from "./Components/OurServices/OurServicesComponent";
+
 
 function App() {
   return (
-    <HeaderLogoComponent />
+    <>
+      <HeaderComponent  />
+      <HeroComponent />
+      <FloatBanner />
+      <OurServicesComponent />
+    </>
   )
 }
 
