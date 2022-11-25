@@ -27,4 +27,7 @@ code {
   .hero--title {
       -webkit-text-fill-color: transparent;
   }
+  .projectLinks:hover > p > svg > path{
+    fill: #CDDA4F;
+  }
 }
