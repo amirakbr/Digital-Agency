@@ -1,11 +1,11 @@
-import HeaderLogoComponent from './HeaderLogoComponent' ; 
+import { ReactComponent as HeaderLogo } from "../../Assets/Svg/headerLogo.svg"
 
 let HeaderComponent = () => {
     return(
         <div className='container mx-auto px-[1rem]'>
             <div className="flex items-center justify-between text-white">
                 <div className='flex'>
-                    <HeaderLogoComponent />
+                    <HeaderLogo className="w-[4.5rem]" />
                     <div className='flex items-center ml-[2rem] text-lg'>
                         <div className='text-center p-[.4rem_1.3rem]'>
                             <p>
