@@ -11,9 +11,20 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: linear-gradient(180deg, #121215 20.31%, #010729 100%);
+  overflow-x: hidden;
+  height: 100%;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+
+
+@layer components {
+  .hero--title {
+      -webkit-text-fill-color: transparent;
+  }
 }
