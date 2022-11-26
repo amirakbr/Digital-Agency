@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import HeroImage from '../../Assets/Hero/heroImage.png'
-let heroString = 'We Are An Winning Digital Agency' ;
+let heroString = 'We Are A Winning Digital Agency' ;
 /*
  
              after:absolute after:w-full after:h-full after:top-0 after:left-0 laptops:after:none after:block after:content-["_"] after:z-[-1] after:bg-[#16192d8f] after:blur-[2rem]
