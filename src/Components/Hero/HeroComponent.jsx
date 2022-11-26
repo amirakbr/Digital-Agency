@@ -39,7 +39,7 @@ let HeroComponent = () => {
             </div>
             <div className='w-full p-[1rem_0.5rem] laptops:relative absolute laptops:left-0 laptops:top-0 left-[50%] top-[50%] laptops:max-w-[auto]
              max-w-[40rem] laptops:translate-x-[0] translate-x-[-50%] laptops:translate-y-[0] translate-y-[-50%]'>
-                <img className='animate-heroImageFloating' src={HeroImage} />
+                <img alt='Computer Vector' className='animate-heroImageFloating' src={HeroImage} />
             </div>
         </div>
     )
