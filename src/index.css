@@ -32,3 +32,90 @@ code {
     fill: #CDDA4F;
   }
 }
+.getStartedButton > .getStartedButtonHover1 {
+  transform-origin: left;
+  transform: scaleX(0);
+  animation: .3s linear forwards;
+}
+.getStartedButton > .getStartedButtonHover2 {
+  transform-origin: top;
+  transform: scaleY(0);
+  animation: .3s linear forwards;
+  animation-delay: .3s;
+}
+.getStartedButton > .getStartedButtonHover3 {
+  transform-origin: right;
+  transform: scaleX(0);
+  animation: .3s linear forwards;
+  animation-delay: .6s;
+}
+.getStartedButton > .getStartedButtonHover4 {
+  transform-origin: bottom;
+  transform: scaleY(0);
+  animation: .3s linear forwards;
+  animation-delay: .9s;
+}
+.getStartedButton:hover .getStartedButtonHover1{
+  animation-name: animScaleX;
+}
+.getStartedButton:hover .getStartedButtonHover3{
+  animation-name: animScaleX;
+}
+.getStartedButton:hover .getStartedButtonHover2{
+  animation-name: animScaleY;
+}
+.getStartedButton:hover .getStartedButtonHover4{
+  animation-name: animScaleY;
+}
+@keyframes animScaleX {
+  0%{
+    transform: scaleX(0);
+  }
+  100%{
+    transform: scaleX(1);
+  }
+}
+@keyframes animScaleY {
+  0%{
+    transform: scaleY(0);
+  }
+  100%{
+    transform: scaleY(1);
+  }
+}
+
+.OurServicesHover:hover .getStartedButtonHover1{
+  animation-name: animScaleX;
+}
+.OurServicesHover:hover .getStartedButtonHover3{
+  animation-name: animScaleX;
+}
+.OurServicesHover:hover .getStartedButtonHover2{
+  animation-name: animScaleY;
+}
+.OurServicesHover:hover .getStartedButtonHover4{
+  animation-name: animScaleY;
+}
+.OurServicesHover > .getStartedButtonHover1 {
+  transform-origin: left;
+  transform: scaleX(0);
+  animation: .5s linear forwards;
+}
+.OurServicesHover > .getStartedButtonHover2 {
+  transform-origin: top;
+  transform: scaleY(0);
+  animation: .5s linear forwards;
+  animation-delay: .5s;
+}
+.OurServicesHover > .getStartedButtonHover3 {
+  transform-origin: right;
+  transform: scaleX(0);
+  animation: .5s linear forwards;
+  animation-delay: 1s;
+}
+.OurServicesHover > .getStartedButtonHover4 {
+  transform-origin: bottom;
+  transform: scaleY(0);
+  animation: .5s linear forwards;
+  animation-delay: 1.5s;
+}

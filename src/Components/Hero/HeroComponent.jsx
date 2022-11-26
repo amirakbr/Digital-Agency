@@ -29,8 +29,12 @@ let HeroComponent = () => {
                 <p className='mt-[1rem] leading-8 text-base font-medium'>
                     Lorem ipsum is a pseudo-Latin text used in web design, typography, layout, and printing in place of English to emphasise design elements over content
                 </p>
-                <button className='bg-[#102FD3] p-[.5rem_1rem] rounded mt-[3rem] text-lg font-semibold'>
+                <button className='getStartedButton bg-[#102FD3] p-[.7rem_1.2rem] rounded mt-[3rem] text-lg font-semibold relative overflow-hidden'>
                     Get started
+                    <div className='getStartedButtonHover1 absolute w-[calc(100%+6px)] left-[-3px] top-0 shadow-[0_0_0_2.8px_#CDDA4F]'></div>
+                    <div className='getStartedButtonHover2 absolute h-[calc(100%+6px)] top-[-3px] right-0 shadow-[0_0_0_2.8px_#CDDA4F]'></div>
+                    <div className='getStartedButtonHover3 absolute w-[calc(100%+6px)] bottom-0 left-[-3px] shadow-[0_0_0_2.8px_#CDDA4F]'></div>
+                    <div className='getStartedButtonHover4 absolute h-[calc(100%+6px)] top-[-3px] left-0 shadow-[0_0_0_2.8px_#CDDA4F]'></div>
                 </button>
             </div>
             <div className='w-full p-[1rem_0.5rem] laptops:relative absolute laptops:left-0 laptops:top-0 left-[50%] top-[50%] laptops:max-w-[auto]
