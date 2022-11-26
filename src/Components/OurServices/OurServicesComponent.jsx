@@ -1,6 +1,6 @@
 let OurServicesComponent = () => {
     return (
-        <div className="container mx-auto px-[2rem]">
+        <div className='tablets:container px-[3%]  mx-auto tablets:px-[1rem]'>
             <h2 className="text-center text-xl text-white mt-[6.25rem] mb-[2.813rem] font-semibold">
                 Our Services
             </h2>

@@ -5,51 +5,79 @@ let HeaderComponent = () => {
     const [CasedingMenu , SetCasedingMenu] = useState(false) ; 
     const [MobileCasedingMenu , SetMobileCasedingMenu] = useState(false) ; 
     return(
-        <div className='container mx-auto px-[1rem]'>
+        <div className='tablets:container px-[3%]  mx-auto tablets:px-[1rem]'>
             <div className="phone:flex-row flex flex-col items-center justify-between text-white flex-wrap">
                 <div className='flex items-center w-full phone:w-auto justify-between phone:justify-start'>
-                    <div className="tablets:hidden relative flex flex-col justify-between w-[2rem] h-[1.5rem] z-[21] mr-[1rem]"
+                    <div className="tablets:hidden relative flex flex-col justify-between w-HeaderHamburgerWidth h-HeaderHamburgerHeight z-[21] mr-[1rem]"
                      onClick={()=> MobileCasedingMenu ? SetMobileCasedingMenu(false) : SetMobileCasedingMenu(true) }>
-                        <span className="w-full border-b-[.1rem] border-solid border-white"></span>
-                        <span className="w-full border-b-[.1rem] border-solid border-white"></span>
-                        <span className="w-full border-b-[.1rem] border-solid border-white"></span>
+                        {
+                            MobileCasedingMenu ? 
+                            <>
+                                <span className="w-full border-b-HeaderItemBorderBottomWidth border-solid border-white absolute top-[50%] rotate-[45deg]">
+
+                                </span>
+                                <span className="w-full border-b-HeaderItemBorderBottomWidth border-solid border-white absolute top-[50%] rotate-[-45deg]">
+
+                                </span>
+                            </> : 
+                            <>
+                                <span className="w-full border-b-HeaderItemBorderBottomWidth border-solid border-white"></span>
+                                <span className="w-full border-b-HeaderItemBorderBottomWidth border-solid border-white"></span>
+                                <span className="w-full border-b-HeaderItemBorderBottomWidth border-solid border-white"></span>
+                            </>
+                        }
                         {
                                 MobileCasedingMenu ? <>
                                     <div className="w-[max-content] absolute top-[3rem] bg-white flex flex-col items-center animate-hoverheadermenu">
                                         <p className="text-black hover:text-black p-[.5rem_1rem] font-[550] text-lg
-                                        transation-all duration-[.25s] after:content-['_'] after:w-full after:border-b-[.15rem] after:border-b-[solid] after:border-b-[#010728] after:scale-x-[0] hover:after:scale-x-[1] after:transation-all after:duration-[.15s] after:origin-left cursor-pointer flex flex-col items-center">
+                                        transation-all duration-[.25s] after:content-['_'] after:w-full after:border-b-[.15rem] 
+                                        
+                                        after:border-b-[solid] after:border-b-[#010728] after:scale-x-[0] hover:after:scale-x-[1] 
+                                        after:transation-all after:duration-[.15s] after:origin-left cursor-pointer flex flex-col items-center">
                                             Design
                                         </p>
                                         <p className="text-black hover:text-black p-[.5rem_1rem] font-[550] text-lg
-                                        transation-all duration-[.25s] after:content-['_'] after:w-full after:border-b-[.15rem] after:border-b-[solid] after:border-b-[#010728] after:scale-x-[0] hover:after:scale-x-[1] after:transation-all after:duration-[.15s] after:origin-left cursor-pointer flex flex-col items-center">
+                                        transation-all duration-[.25s] after:content-['_'] after:w-full after:border-b-[.15rem] 
+                                        
+                                        after:border-b-[solid] after:border-b-[#010728] after:scale-x-[0] hover:after:scale-x-[1] 
+                                        after:transation-all after:duration-[.15s] after:origin-left cursor-pointer flex flex-col items-center">
                                             Web development
                                         </p>
                                         <p className="text-black hover:text-black p-[.5rem_1rem] font-[550] text-lg
-                                        transation-all duration-[.25s] after:content-['_'] after:w-full after:border-b-[.15rem] after:border-b-[solid] after:border-b-[#010728] after:scale-x-[0] hover:after:scale-x-[1] after:transation-all after:duration-[.15s] after:origin-left cursor-pointer flex flex-col items-center">
+                                        transation-all duration-[.25s] after:content-['_'] after:w-full after:border-b-[.15rem] 
+                                        
+                                        after:border-b-[solid] after:border-b-[#010728] after:scale-x-[0] hover:after:scale-x-[1] 
+                                        after:transation-all after:duration-[.15s] after:origin-left cursor-pointer flex flex-col items-center">
                                             Contents
                                         </p>
                                         <p className="text-black hover:text-black p-[.5rem_1rem] font-[550] text-lg
-                                        transation-all duration-[.25s] after:content-['_'] after:w-full after:border-b-[.15rem] after:border-b-[solid] after:border-b-[#010728] after:scale-x-[0] hover:after:scale-x-[1] after:transation-all after:duration-[.15s] after:origin-left cursor-pointer flex flex-col items-center">
+                                        transation-all duration-[.25s] after:content-['_'] after:w-full after:border-b-[.15rem] 
+                                        
+                                        after:border-b-[solid] after:border-b-[#010728] after:scale-x-[0] hover:after:scale-x-[1] 
+                                        after:transation-all after:duration-[.15s] after:origin-left cursor-pointer flex flex-col items-center">
                                             Social media
                                         </p>
                                         <p className="text-black hover:text-black p-[.5rem_1rem] font-[550] text-lg
-                                        transation-all duration-[.25s] after:content-['_'] after:w-full after:border-b-[.15rem] after:border-b-[solid] after:border-b-[#010728] after:scale-x-[0] hover:after:scale-x-[1] after:transation-all after:duration-[.15s] after:origin-left cursor-pointer flex flex-col items-center">
+                                        transation-all duration-[.25s] after:content-['_'] after:w-full after:border-b-[.15rem] 
+                                        
+                                        after:border-b-[solid] after:border-b-[#010728] after:scale-x-[0] hover:after:scale-x-[1] 
+                                        after:transation-all after:duration-[.15s] after:origin-left cursor-pointer flex flex-col items-center">
                                             Seo
                                         </p>
                                     </div>
                                 </> : null
                             }
                     </div>
-                    <HeaderLogo className="w-[4.5rem]" />
+                    <a href=""><HeaderLogo className="w-[4.5rem] ml-[2rem]" /></a>
                     <div className='tablets:flex items-center ml-[2rem] text-lg hidden'>
                         <div className='text-center mr-[1.3rem] text-white transation-all duration-[.25s] hover:text-[#CDDA4F] after:content-["_"] after:w-full after:border-b-[.12rem] after:border-b-[solid] after:border-b-[orange] after:scale-x-[0] hover:after:scale-x-[1] after:transation-all after:duration-[.15s] after:origin-left cursor-pointer flex flex-col'>
-                            <p className="font-semibold p-[.4rem_.5rem]">
+                            <p className="font-base p-[.4rem_.5rem]">
                                 Our Story
                             </p>
                         </div>
                         <div className='projectLinks relative text-center mr-[1.3rem] text-white transation-all duration-[.25s] hover:text-[#CDDA4F] after:content-["_"] after:w-full after:border-b-[.12rem] after:border-b-[solid] after:border-b-[orange] after:scale-x-[0] hover:after:scale-x-[1] after:transation-all after:duration-[.15s] after:origin-left cursor-pointer flex flex-col items-center
                          z-[20]' onMouseOver={()=>SetCasedingMenu(true)} onMouseLeave={()=>SetCasedingMenu(false)} >
-                            <p className="font-semibold p-[.4rem_.5rem] flex items-baseline ">
+                            <p className="font-base p-[.4rem_.5rem] flex items-baseline ">
                                 Projects
                                 <svg className="ml-[1rem]"
                                     width={14}
@@ -90,18 +118,18 @@ let HeaderComponent = () => {
                             }
                         </div>
                         <div className='text-center mr-[1.3rem] text-white transation-all duration-[.25s] hover:text-[#CDDA4F] after:content-["_"] after:w-full after:border-b-[.12rem] after:border-b-[solid] after:border-b-[orange] after:scale-x-[0] hover:after:scale-x-[1] after:transation-all after:duration-[.15s] after:origin-left cursor-pointer flex flex-col'>
-                            <p className="font-semibold p-[.4rem_.5rem]">
+                            <p className="font-base p-[.4rem_.5rem]">
                                 Portfolio
                             </p>
                         </div>  
                         <div className='text-center mr-[1.3rem] text-white transation-all duration-[.25s] hover:text-[#CDDA4F] after:content-["_"] after:w-full after:border-b-[.12rem] after:border-b-[solid] after:border-b-[orange] after:scale-x-[0] hover:after:scale-x-[1] after:transation-all after:duration-[.15s] after:origin-left cursor-pointer flex flex-col'>
-                            <p className="font-semibold p-[.4rem_.5rem]">
+                            <p className="font-base p-[.4rem_.5rem]">
                                 Careers
                             </p>
                         </div>
                     </div>
                 </div>
-                <div className='p-[0rem_.8rem] text-lg'>
+                <div className='text-lg'>
                     <button className='p-[.5rem_1.2rem] bg-gradient-to-r from-[#FF8A52] to-[#CDDA4F] rounded text-black text-xl
                      overflow-hidden w-[9.56rem] animate-backgroundsize bg-[length:200%_100%]'>
                         <p className="flex whitespace-nowrap animate-wiggle">

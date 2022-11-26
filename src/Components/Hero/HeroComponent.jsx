@@ -15,7 +15,7 @@ let HeroComponent = () => {
         return () => clearTimeout(timeOutTyping)
     },[HeroTitle])
     return(
-        <div className='grid laptops:grid-cols-[1fr_.8fr] block relative container mx-auto px-[2rem] mt-[2rem]'>
+        <div className='grid laptops:grid-cols-[1fr_.8fr] block relative tablets:container mx-auto tablets:px-[2rem] px-[3%] mt-[2rem]'>
             <div className='leftSideHero flex flex-col laptops:items-start items-center laptops:text-start text-center laptops:max-w-[35rem] max-w-[unset] text-white
              p-[1rem_0.5rem] laptops:backdrop-blur-[0px] rounded-lg backdrop-blur-[5px] relative laptops:bg-[transparent] bg-[#31364833] z-10 
              after:absolute after:w-full after:h-full after:top-0 after:left-0 laptops:after:none after:block after:content-["_"] after:z-[-1]

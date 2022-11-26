@@ -5,10 +5,13 @@ module.exports = {
   theme: {
     screens : {
       'phone' : '340px' , 
-      'tablets' : '768px' , 
+      'tablets' : '780px' , 
       'laptops' : '1100px' ,
       'md' : '1280px' , 
     } , 
+    borderWidth: {
+      'HeaderItemBorderBottomWidth' : '.12rem' , 
+    },
     extend: {
       colors:{
         'headerbuttonbackgroundcolor' : 'linear-gradient(90deg, #FF8A52 0%, #CDDA4F 105.35%)'
@@ -44,7 +47,13 @@ module.exports = {
         heroImageFloating : 'heroImageFloating 10s linear infinite' , 
         FloatBanner: 'FloatBanner 5s linear infinite',
         hoverheadermenu: 'hoverheadermenu .2s linear forwards',
-      }
+      } ,
+      height: {
+        'HeaderHamburgerHeight': '1.5rem',
+      } , 
+      width : {
+        'HeaderHamburgerWidth' : '2rem'
+      } , 
     },
   },
   plugins: [],
