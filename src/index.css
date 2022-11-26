@@ -119,3 +119,12 @@ code {
   animation: .5s linear forwards;
   animation-delay: 1.5s;
 }
+.OurServicesHover{
+  transition: all 1s ease-in-out;
+  transform: translateY(0rem);
+  box-shadow: 0 0rem 1rem -1rem #020616;
+}
+.OurServicesHover:hover {
+  transform: translateY(-1rem);
+  box-shadow: 0 2rem 1rem -1rem #020616;
+}
