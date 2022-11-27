@@ -38,7 +38,7 @@ module.exports = {
         } , 
         FloatBanner : {
           '0%': { transform: 'translateX(0%)' },
-          '100%': { transform: 'translateX(-19rem)' },
+          '100%': { transform: 'translateX(-20.5rem)' },
         }
       } , 
       animation: {
