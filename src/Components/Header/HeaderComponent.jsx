@@ -5,7 +5,7 @@ let HeaderComponent = () => {
     const [CasedingMenu , SetCasedingMenu] = useState(false) ; 
     const [MobileCasedingMenu , SetMobileCasedingMenu] = useState(false) ; 
     return(
-        <div className='tablets:container px-[3%]  mx-auto tablets:px-[1rem]'>
+        <div className='tablets:container px-[3%]  mx-auto tablets:px-[2rem] mt-[1rem]'>
             <div className="phone:flex-row flex flex-col items-center justify-between text-white flex-wrap">
                 <div className='flex items-center w-full phone:w-auto justify-between phone:justify-start'>
                     <div className="tablets:hidden relative flex flex-col justify-between w-HeaderHamburgerWidth h-HeaderHamburgerHeight z-[21] mr-[1rem]"
@@ -68,7 +68,7 @@ let HeaderComponent = () => {
                                 </> : null
                             }
                     </div>
-                    <a href=""><HeaderLogo className="w-[4.5rem] ml-[2rem]" /></a>
+                    <a href=""><HeaderLogo className="w-[3.5rem]" /></a>
                     <div className='tablets:flex items-center ml-[2rem] text-lg hidden'>
                         <div className='text-center mr-[1.3rem] text-white transation-all duration-[.25s] hover:text-[#CDDA4F] after:content-["_"] after:w-full after:border-b-[.12rem] after:border-b-[solid] after:border-b-[orange] after:scale-x-[0] hover:after:scale-x-[1] after:transation-all after:duration-[.15s] after:origin-left cursor-pointer flex flex-col'>
                             <p className="font-base p-[.4rem_.5rem]">
@@ -132,11 +132,11 @@ let HeaderComponent = () => {
                 <div>
                     <button className='p-[.5rem_1.2rem] bg-gradient-to-r from-[#FF8A52] to-[#CDDA4F] rounded text-black text-lg
                      overflow-hidden w-[9.56rem] animate-backgroundsize bg-[length:200%_100%]'>
-                        <p className="flex whitespace-nowrap animate-wiggle">
-                            <span className="w-[10rem]">
+                        <p className="flex whitespace-nowrap animate-wiggle w-[18rem]">
+                            <span className="w-[9rem]">
                                 Work with us
                             </span>
-                            <span className="ml-[2rem] w-[10rem]">
+                            <span className="w-[9rem]">
                                 Work with us
                             </span>
                         </p>
