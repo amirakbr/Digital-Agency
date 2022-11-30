@@ -21,20 +21,20 @@ let HeroComponent = () => {
              after:absolute after:w-full after:h-full after:top-0 after:left-0 laptops:after:none after:block after:content-["_"] after:z-[-1]
               after:bg-[#31364833] laptops:after:bg-[transparent] laptops:after:blur-[0px] after:blur-[5px]'>
                 <h1 className='hero--title p-[1rem_0] laptops:text-6xl text-4xl bg-clip-text bg-gradient-to-r from-[#FFFFFF] to-[#77C4DD] 
-                leading-[4.5rem] font-bold'>
+                font-bold'>
                     {
                         HeroTitle ? HeroTitle : ' '
                     }
                 </h1>
-                <p className='mt-[1rem] leading-8 text-base font-medium'>
+                <p className='mt-[1rem] leading-8 text-lg font-medium text-[#6a6c77]'>
                     Lorem ipsum is a pseudo-Latin text used in web design, typography, layout, and printing in place of English to emphasise design elements over content
                 </p>
                 <button className='getStartedButton bg-[#102FD3] p-[.7rem_1.2rem] rounded mt-[3rem] text-lg font-semibold relative overflow-hidden'>
                     Get started
-                    <div className='getStartedButtonHover1 absolute w-[calc(100%+6px)] left-[-3px] top-0 shadow-[0_0_0_2.8px_#CDDA4F]'></div>
-                    <div className='getStartedButtonHover2 absolute h-[calc(100%+6px)] top-[-3px] right-0 shadow-[0_0_0_2.8px_#CDDA4F]'></div>
-                    <div className='getStartedButtonHover3 absolute w-[calc(100%+6px)] bottom-0 left-[-3px] shadow-[0_0_0_2.8px_#CDDA4F]'></div>
-                    <div className='getStartedButtonHover4 absolute h-[calc(100%+6px)] top-[-3px] left-0 shadow-[0_0_0_2.8px_#CDDA4F]'></div>
+                    <div className='getStartedButtonHover1 absolute w-[calc(100%+6px)] left-[-3px] top-0 shadow-[0_0_0_2.8px_#666c2b91]'></div>
+                    <div className='getStartedButtonHover2 absolute h-[calc(100%+6px)] top-[-3px] right-0 shadow-[0_0_0_2.8px_#666c2b91]'></div>
+                    <div className='getStartedButtonHover3 absolute w-[calc(100%+6px)] bottom-0 left-[-3px] shadow-[0_0_0_2.8px_#666c2b91]'></div>
+                    <div className='getStartedButtonHover4 absolute h-[calc(100%+6px)] top-[-3px] left-0 shadow-[0_0_0_2.8px_#666c2b91]'></div>
                 </button>
             </div>
             <div className='w-full p-[1rem_0.5rem] laptops:relative absolute laptops:left-0 laptops:top-0 left-[50%] top-[50%] laptops:max-w-[auto]

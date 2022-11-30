@@ -25,6 +25,7 @@ code {
   .hero--title {
       -webkit-text-fill-color: transparent;
       word-break: break-word;
+      line-height : 1.35 !important; 
   }
   .projectLinks:hover > p > svg > path{
     fill: #CDDA4F;
