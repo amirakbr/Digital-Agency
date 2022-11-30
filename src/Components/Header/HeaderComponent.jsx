@@ -129,14 +129,14 @@ let HeaderComponent = () => {
                         </div>
                     </div>
                 </div>
-                <div className='text-lg'>
-                    <button className='p-[.5rem_1.2rem] bg-gradient-to-r from-[#FF8A52] to-[#CDDA4F] rounded text-black text-xl
+                <div>
+                    <button className='p-[.5rem_1.2rem] bg-gradient-to-r from-[#FF8A52] to-[#CDDA4F] rounded text-black text-lg
                      overflow-hidden w-[9.56rem] animate-backgroundsize bg-[length:200%_100%]'>
                         <p className="flex whitespace-nowrap animate-wiggle">
-                            <span>
+                            <span className="w-[10rem]">
                                 Work with us
                             </span>
-                            <span className="ml-[2rem]">
+                            <span className="ml-[2rem] w-[10rem]">
                                 Work with us
                             </span>
                         </p>

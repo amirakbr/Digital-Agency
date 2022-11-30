@@ -19,7 +19,7 @@ module.exports = {
       keyframes: {
         wiggle: {
           '0%': { transform: 'translateX(0%)' },
-          '100%': { transform: 'translateX(-9.2rem)' },
+          '100%': { transform: 'translateX(-10rem)' },
         },
         backgroundsize : {
           '0%' : {backgroundPosition : '100% 0%'} , 
