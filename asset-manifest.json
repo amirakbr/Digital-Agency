@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/jorchin-agency-sample/static/css/main.889f7517.css",
-    "main.js": "/jorchin-agency-sample/static/js/main.f9365845.js",
+    "main.css": "/jorchin-agency-sample/static/css/main.60f24978.css",
+    "main.js": "/jorchin-agency-sample/static/js/main.f7782bc6.js",
     "static/js/787.69852b4e.chunk.js": "/jorchin-agency-sample/static/js/787.69852b4e.chunk.js",
     "static/media/heroImage.png": "/jorchin-agency-sample/static/media/heroImage.b79a0940c9504c9e25b7.png",
     "static/media/headerLogo.svg": "/jorchin-agency-sample/static/media/headerLogo.eb915e5e89d9ceb6ca89f9153f670a86.svg",
     "index.html": "/jorchin-agency-sample/index.html",
-    "main.889f7517.css.map": "/jorchin-agency-sample/static/css/main.889f7517.css.map",
-    "main.f9365845.js.map": "/jorchin-agency-sample/static/js/main.f9365845.js.map",
+    "main.60f24978.css.map": "/jorchin-agency-sample/static/css/main.60f24978.css.map",
+    "main.f7782bc6.js.map": "/jorchin-agency-sample/static/js/main.f7782bc6.js.map",
     "787.69852b4e.chunk.js.map": "/jorchin-agency-sample/static/js/787.69852b4e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.889f7517.css",
-    "static/js/main.f9365845.js"
+    "static/css/main.60f24978.css",
+    "static/js/main.f7782bc6.js"
   ]
 }
